@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="icon" href="img/deportes.png">
+  </head>
+<body style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-image:  url(https://png.pngtree.com/thumb_back/fh260/background/20190223/ourmid/pngtree-color-tennis-sport-advertising-background-backgroundmotionwork-outtennistreeshand-paintedfreshhouses-image_75815.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment:fixed;
+margin: 0px;
+overflow-x: hidden;">
+
+<!-- Nav -->
+<nav class="navbar navbar-light bg-transparent fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand " href="index.html" style="color: black;">Inicio</a>
+    <button class="navbar-toggler border-success border-2" style="color: transparent;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class=" navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end bg-transparent" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header bg-transparent">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel" >Menu</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close text-white "><b>X</b></button>
+      </div>
+      <div class="offcanvas-body bg-transparent text-white">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" style="color: aquamarine;" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: aquamarine;" href="tienda.html">Tienda</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" style="color: aquamarine;" href="contact.html">Contacto</a>
+            </li>
+        </ul>
+        <form class="d-flex bg-transparent">
+          <input class="form-control me-2 bg-transparent" type="search" placeholder="Buscar" aria-label="Search" style="color: aquamarine;">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<br><br><br><br>
+  
+  <!-- formulario -->.
+
+  <h2 class="text-center" style="text-shadow: 3px 3px 3px rgb(3, 3, 9);">FORMULARIO DE CONTACTO:</h2>
+  <br><br>
+    <form action="enviar-formulario.php" method="post" class="text-center">
+        <label>Nombre:</label>
+        <input maxlength="50" name="nombre" required size="50" type="text" autofocus placeholder="Escribe tu nombre" />
+        <br>
+
+        <br>
+
+        <label>Email:</label>
+        <input name="email" required type="email" placeholder="Escribe tu email" />
+
+        <br><br>
+
+        <label>Teléfono</label>
+        <input name="telefono" pattern="[0-9]{9}" required type="tel" placeholder="XXXXXXXXX" />
+
+
+        <br><br>
+
+
+        <label form="cars">Seleccionar País:</label>
+        <select name="pais" required>
+
+
+        <br><br>
+
+        <option value="chile">Chile</option>
+        <option value="Argentina">chile</option>
+        <option value="Peru">Peru</option>
+        </select>
+        <br><br>
+        <datalist id="aficiones">
+        <option value="Viajar"></option>
+        <option value="Leer"></option></datalist>
+        
+        <br><br>
+
+        <textarea cols="80" name="observaciones" rows="8">
+        Puedes escribir aquí tus observaciones...</textarea>
+        <br>
+        <input type="submit" value="Enviar" />
+    </form>
+    <br><br>
+    <div>
+        <h3 class="text-center">Encuentranos en chile en:</h3>
+        <br><br>
+        <div class="text-center">
+            <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2442.3315052781963!2d-70.72034994705193!3d-32.74847884137452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x968816ceba63aaab%3A0x3c491c7f6911978b!2sCentro%20Veterinario%20PuntoVet!5e0!3m2!1ses-419!2scl!4v1650406131054!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+        </div>
+    </div>
+  </div>
+
+       <!-- footer -->
+
+       <footer class="bg-transparent">
+        <div class="text-center p-3 bg-transparent" style="background-color: white;">
+
+        <br><p class="text-black bg-transparent"><b> Equipo: Fernado Quezada, Katherine Correa, Luis Montero, Alexis Menco.</b></p> <br>
+        
+          
+          <a class="text-black bg-transparent" href="#" style="text-decoration: none;"><b> © 2022 Copyright Full Deportes</b></a>
+        
+        
+    </footer>  
+</body>
+</html>
