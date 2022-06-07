@@ -1,4 +1,4 @@
-#              **Módulo - Desarrollo de un portafolio**
+
 
 # Desarrollador de Aplicaciones Full Stack Python Trainee
 
