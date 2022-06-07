@@ -105,7 +105,7 @@ Aprendizaje Esperado 7 Reconocer las aplicaciones preinstaladas con el motor Dja
 
 **Modulo 8**
 
-**M8:Desarrollo de Portafolio de un Producto Digital **
+**M8:Desarrollo de Portafolio de un Producto Digital**
 | Objetivos   |
 | :---: |
 |Aprendizaje Esperado 1 Reconocer las características fundamentales de un portafolio de productos digitales efectivo para potenciar el perfil profesional.|
