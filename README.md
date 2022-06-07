@@ -103,7 +103,7 @@ Aprendizaje Esperado 7 Reconocer las aplicaciones preinstaladas con el motor Dja
 | :---: |
 |En este modulo se usan los conocimientos sobre python, clases, modelos de bases de datos, migraciones etc.|
 
- **Modulo 8**
+**Modulo 8**
 
 **M8:Desarrollo de Portafolio de un Producto Digital **
 | Objetivos   |
